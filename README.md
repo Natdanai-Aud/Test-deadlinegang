@@ -2,6 +2,17 @@
 
 <img width="1599" height="899" alt="image" src="https://github.com/user-attachments/assets/1f44c33a-08b0-4ca0-a756-d0a84b366ff4" />
 
+## สรุปผล SonarQube โปรเจกต์ bkk-api - สถานะ Passed
+- Bugs: 0 (A) - ไม่พบ Bug
+- Vulnerabilities: 0 (A) - ไม่พบช่องโหว่
+- Hotspots Reviewed: - (A) - ไม่มี Hotspot ต้อง review
+- Code Smells: 2 (A) - มี code ที่ควรปรับปรุง 2 จุด แต่ยังเกรด A ถือว่าน้อยมาก
+- Coverage: 0.0% - ไม่มี Test Coverage เลย เป็นจุดแดงที่ต้องแก้
+- Duplications: 11.9% - มีโค้ดซ้ำ ~12% สูงกว่าปกติ ควร refactor
+- Lines: 1.1k TypeScript - ขนาดโปรเจกต์เล็ก ~1,100 บรรทัด
+  
+**โดยรวม: ผ่านเกณฑ์ Quality Gate แต่มี 2 เรื่องต้องปรับ คือ เพิ่ม Unit Test และลดโค้ดซ้ำ**
+
 # K6
 
 ## 1. Configuration สำหรับ Load Test (ทดสอบรองรับโหลดปกติ/สูงสุดตามสเปก)
